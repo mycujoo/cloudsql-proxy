@@ -160,7 +160,7 @@ type instanceConfig struct {
 // network. It is updated during the initialization of validNets to include a
 // valid loopback address for "tcp".
 var loopbackForNet = map[string]string{
-	"tcp4": "127.0.0.1",
+	"tcp4": "0.0.0.0",
 	"tcp6": "[::1]",
 }
 
